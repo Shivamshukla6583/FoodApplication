@@ -1,0 +1,133 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+/*body {
+  margin-bottom: 60px;
+}*/
+.text-pink{
+    color:#ff1448 !important;
+}
+.nav-link{
+    letter-spacing:2px;
+}
+#carouselExampleSlidesOnly{
+    background-color:#0d243d;
+    height:400px;
+}
+footer {
+    background-color: darkslateblue;
+    height: 250px;
+}
+header{
+    z-index:1000;
+}
+.dishCard{
+    height:400px;
+}
+.fa-instagram {
+    color: #fd1d1d;
+}
+.fa-whatsapp {
+    color: #25D366;
+}
+.fa-facebook {
+    color: #1877F2;
+}
+.fa-envelope {
+    color: #F4B400;
+}
+#recipe-list{
+    top:5rem;
+}
+#recipe-list ul::-webkit-scrollbar{
+    width:10px
+}
+#recipe-list ul::-webkit-scrollbar-track{
+    background-color:#ffffff;
+}
+#recipe-list ul::-webkit-scrollbar-thumb{
+    background-color:#ff1448;
+    border-radius:10px;
+}
+.recipe-item :hover{
+    background-color:#0d243d;
+    border-radius:10px;
+}
+.recipe-item :hover a{
+    color:#ffffff !important;
+    font-size:10px;
+    
+}
+#order-img{
+    height:200px;
+}
+#qty{
+    width:50px;
+    border:none;
+}
+#qty:focus{
+    outline:none;
+}
+#qtySection{
+    -webkit-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+.fa-plus,.fa-minus{
+    cursor:pointer;
+}
+#totalAmount,#price{
+    width:60px;
+    border:none;
+}
+#totalAmount:focus,#price:focus{
+    outline:none;
+}
+.addToCartIcon{
+    font-size:3px;
+    cursor:pointer;
+}
+.bg-black {
+    background-color: #0d243d !important;
+}
+#showCartList{
+    display:none;
+    right:10px;
+    width:300px;
+}
+#showListIcon:hover ~#showCartList{
+    display:block
+}
+.cartListImg{
+    width:100px;
+    height:60px;
+}
+#showCartList:hover{
+    display:block;
+}
+.cartImage{
+    width:180px;
+    height:100px;
+}
+.cartTitle{
+    width:500px;
+}
+.emptyCart{
+    font-size:300px;
+}
